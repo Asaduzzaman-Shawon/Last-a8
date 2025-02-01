@@ -1,0 +1,164 @@
+ [
+      {
+        "product_id": 1,
+        "product_title": "Asus ROG 5 Ultimate",
+        "product_image": "https://i.ibb.co.com/1G7K4CxD/rog5.jpg",
+        "category": "Smartphone",
+        "price": 699.99,
+        "description": "A high-performance smartphone with an advanced camera and long battery life.",
+        "Specification": [
+          "6.5-inch AMOLED display",
+          "128GB storage, 8GB RAM",
+          "5000mAh battery",
+          "Triple-lens 108MP camera"
+        ],
+        "availability": true,
+        "rating": 4.7
+      },
+      {
+        "product_id": 2,
+        "product_title": "Redmi Note 12 Pro",
+        "product_image": "https://i.ibb.co.com/fYmfnWd3/Xiaomi-Redmi-Note-12-Pro.webp",
+        "category": "Smartphone",
+        "price": 599.99,
+        "description": "A budget-friendly smartphone with a powerful processor and a great camera.",
+        "Specification": [
+          "6.3-inch LCD display",
+          "64GB storage, 6GB RAM",
+          "4500mAh battery",
+          "Dual-lens 64MP camera"
+        ],
+        "availability": true,
+        "rating": 4.5
+      },
+      {
+        "product_id": 3,
+        "product_title": "RedMagic 8 Pro",
+        "product_image": "https://i.ibb.co.com/k68NSRX5/red8.jpg",
+        "category": "Smartphone",
+        "price": 799.99,
+        "description": "A premium smartphone with a stunning display and high-end features.",
+        "Specification": [
+          "6.8-inch OLED display",
+          "256GB storage, 12GB RAM",
+          "6000mAh battery",
+          "Quad-lens 120MP camera"
+        ],
+        "availability": false,
+        "rating": 4.8
+      },
+      {
+        "product_id": 4,
+        "product_title": "iPhone 16 Pro Max",
+        "product_image": "https://i.ibb.co.com/xSCXDNnm/16-pro.jpg",
+        "category": "Smartphone",
+        "price": 529.99,
+        "description": "A mid-range smartphone with great battery life and a smooth display.",
+        "Specification": [
+          "6.4-inch IPS display",
+          "128GB storage, 6GB RAM",
+          "5000mAh battery",
+          "Triple-lens 64MP camera"
+        ],
+        "availability": true,
+        "rating": 4.6
+      },
+      {
+        "product_id": 5,
+        "product_title": "Asus Rog 6",
+        "product_image": "https://i.ibb.co.com/GvyHncgj/rog6.png",
+        "category": "Smartphone",
+        "price": 679.99,
+        "description": "A smartphone with an ultra-fast processor and pro-level camera features.",
+        "Specification": [
+          "6.7-inch OLED display",
+          "256GB storage, 8GB RAM",
+          "4500mAh battery",
+          "Triple-lens 108MP camera"
+        ],
+        "availability": false,
+        "rating": 4.7
+      },
+      {
+        "product_id": 6,
+        "product_title": "TECNO CAMON 20 Pro",
+        "product_image": "https://i.ibb.co.com/XxgjQ0bG/camon20.jpg",
+        "category": "Smartphone",
+        "price": 749.99,
+        "description": "A high-end smartphone designed for gaming and media consumption.",
+        "Specification": [
+          "6.9-inch AMOLED display",
+          "512GB storage, 16GB RAM",
+          "5500mAh battery",
+          "Quad-lens 108MP camera"
+        ],
+        "availability": true,
+        "rating": 4.9
+      },
+      {
+        "product_id": 7,
+        "product_title": "EarFunAir Pro",
+        "product_image": "https://i.ibb.co.com/MDQG27Vd/fun.jpg",
+        "category": "Audio",
+        "price": 199.99,
+        "description": "Noise-canceling wireless earbuds with superior sound quality.",
+        "Specification": [
+          "Bluetooth 5.3",
+          "Active Noise Cancellation",
+          "24-hour battery life with case",
+          "IPX5 water resistance"
+        ],
+        "availability": true,
+        "rating": 4.5
+      },
+      {
+        "product_id": 8,
+        "product_title": "Apple AirPods Pro",
+        "product_image": "https://i.ibb.co.com/chSKTX6S/air-pro.jpg",
+        "category": "Audio",
+        "price": 299.99,
+        "description": "Premium over-ear wireless headphones with immersive sound quality.",
+        "Specification": [
+          "Bluetooth 5.3",
+          "Active Noise Cancellation",
+          "30-hour battery life",
+          "Comfortable ear cushions"
+        ],
+        "availability": true,
+        "rating": 4.7
+      },
+      {
+        "product_id": 9,
+        "product_title": "Apple Watch Sport",
+        "product_image": "https://i.ibb.co.com/bgJj09BW/sport.jpg",
+        "category": "Wearable",
+        "price": 349.99,
+        "description": "A sleek smartwatch with fitness tracking and heart rate monitoring.",
+        "Specification": [
+          "1.78-inch OLED display",
+          "GPS and Heart Rate Monitor",
+          "Waterproof up to 50m",
+          "7-day battery life"
+        ],
+        "availability": false,
+        "rating": 4.6
+      },
+      {
+        "product_id": 10,
+        "product_title": "ROG Strix Scar II",
+        "product_image": "https://i.ibb.co.com/FLrw7DbS/strix.jpg",
+        "category": "Wearable",
+        "price": 99.99,
+        "description": "A lightweight fitness tracker with heart rate and sleep monitoring.",
+        "Specification": [
+          "144hz  OLED display",
+          "Intel Core i7 8750H Hexa",
+          "Water-resistant",
+          "10-day battery life"
+        ],
+        "availability": true,
+        "rating": 4.4
+      }
+    ]
+  
+  
