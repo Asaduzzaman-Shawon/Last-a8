@@ -6,10 +6,18 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+ 
+import Layout from './components/layout/Layout';
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <button className="btn btn-error">Error</button>,
+    element: <Layout></Layout>,
+    children: [
+      {
+        path: "home",
+        
+      }
+    ]
   },
 ]);
 createRoot(document.getElementById('root')).render(
