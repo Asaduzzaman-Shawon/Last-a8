@@ -99,7 +99,7 @@
         "product_id": 7,
         "product_title": "EarFunAir Pro",
         "product_image": "https://i.ibb.co.com/MDQG27Vd/fun.jpg",
-        "category": "Audio",
+        "category": "Buds",
         "price": 199.99,
         "description": "Noise-canceling wireless earbuds with superior sound quality.",
         "Specification": [
@@ -115,7 +115,7 @@
         "product_id": 8,
         "product_title": "Apple AirPods Pro",
         "product_image": "https://i.ibb.co.com/chSKTX6S/air-pro.jpg",
-        "category": "Audio",
+        "category": "Buds",
         "price": 299.99,
         "description": "Premium over-ear wireless headphones with immersive sound quality.",
         "Specification": [
@@ -131,7 +131,7 @@
         "product_id": 9,
         "product_title": "Apple Watch Sport",
         "product_image": "https://i.ibb.co.com/bgJj09BW/sport.jpg",
-        "category": "Wearable",
+        "category": "Watch",
         "price": 349.99,
         "description": "A sleek smartwatch with fitness tracking and heart rate monitoring.",
         "Specification": [
@@ -147,8 +147,8 @@
         "product_id": 10,
         "product_title": "ROG Strix Scar II",
         "product_image": "https://i.ibb.co.com/FLrw7DbS/strix.jpg",
-        "category": "Wearable",
-        "price": 99.99,
+        "category": "Laptop",
+        "price": 959.99,
         "description": "A lightweight fitness tracker with heart rate and sleep monitoring.",
         "Specification": [
           "144hz  OLED display",
