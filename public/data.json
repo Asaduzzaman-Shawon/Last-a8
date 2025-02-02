@@ -12,7 +12,7 @@
           "5000mAh battery",
           "Triple-lens 108MP camera"
         ],
-        "availability": true,
+        "availability": false,
         "rating": 4.7
       },
       {
@@ -108,7 +108,7 @@
           "24-hour battery life with case",
           "IPX5 water resistance"
         ],
-        "availability": true,
+        "availability": false,
         "rating": 4.5
       },
       {

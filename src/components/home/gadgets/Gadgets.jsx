@@ -10,7 +10,7 @@ const Gadgets = () => {
   }, []);
   return (
     <div className="md:flex bg-[#d9d9d980]   p-10 gap-5 rounded-2xl border border-gray-300">
-      <div className="w-1/4 flex mx-auto justify-center rounded-2xl bg-white h-fit ">
+      <div className="md:w-1/4 mb-5 flex mx-auto justify-center rounded-2xl bg-white h-fit ">
         <div className="flex flex-col w-50 my-7 gap-5 ">
           <button className="btn btn-outline btn-primary ">All Products</button>
           <button className="btn btn-outline btn-primary">Smartphones</button>

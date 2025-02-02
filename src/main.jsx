@@ -10,6 +10,8 @@ import {
 import Layout from './components/layout/Layout';
 import Home from './components/home/Home';
 import Statistic from './statistic/Statistic';
+import Detail from './components/detail/Detail';
+import Dashboard from './components/dashboard/Dashboard';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -22,6 +24,15 @@ const router = createBrowserRouter([
       {
         path: "statistic",
         element: <Statistic></Statistic>
+      },
+      {
+        path: "dashboard",
+        element: <Dashboard></Dashboard>
+      },
+      {
+        path: "/gadget/:gadgetId",
+        loader: () => fetch('/public/data.json'),
+        element: <Detail></Detail>
       }
     ]
   },
