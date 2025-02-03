@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { GiSelfLove } from "react-icons/gi";
 import { FaShoppingCart } from "react-icons/fa";
 
@@ -7,7 +7,7 @@ const Navbar = () => {
     <>
       <NavLink to="/">Home</NavLink>
       <NavLink to="statistic">Statistics</NavLink>
-      <NavLink to="dashboard">Dashboard</NavLink>
+      <NavLink to="dashboard/cart">Dashboard</NavLink>
     </>
   );
 
@@ -39,7 +39,8 @@ const Navbar = () => {
             <div className="flex flex-col gap-2">{links}</div>
           </ul>
         </div>
-        <a className="btn btn-ghost text-xl">Gadget Heaven</a>
+        <Link>
+        <a className="btn btn-ghost text-xl">Gadget Heaven</a></Link>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">

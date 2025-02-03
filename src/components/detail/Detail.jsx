@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import { GiSelfLove } from "react-icons/gi";
 import { FaShoppingCart } from "react-icons/fa";
-import { useLoaderData, useParams } from "react-router-dom";
-const Detail = () => {
+import { Link, useLoaderData, useParams } from "react-router-dom";
+const Detail = ({handleAdd}) => {
   const data = useLoaderData();
   // const {product_id, roduct_title, product_image, category,price, description, Specification, availability, rating} = data
   const para = useParams();
-
+ 
   const num = parseInt(para.gadgetId);
   const gadget = data.find((gadget) => gadget.product_id === num);
 
@@ -22,7 +22,10 @@ const Detail = () => {
   } = gadget;
 
   const sp = gadget.Specification
-  
+  const [gadgetNum , setGadgetNum] = useState(0)
+  const handlehard = () => {
+    setGadgetNum(num)
+  }
   return (
     <div>
       <div className="bg-[#9538e2] pt-6 pb-2  md:pb-60 flex flex-col mx-auto">
@@ -54,7 +57,7 @@ const Detail = () => {
           </div>
           <p className="mb-2 font-bold text-gray-600">Rating :  {rating}</p>
           <button  className="btn bg-[#9538e2] rounded-xl mr-3">Add to Cart <FaShoppingCart></FaShoppingCart></button>
-          <button className="btn btn-outline border-[#9538e2] btn-primary rounded-full"><GiSelfLove></GiSelfLove></button>
+          <button  className="btn btn-outline border-[#9538e2] btn-primary rounded-full"><GiSelfLove></GiSelfLove></button>
 
         </div>
       </div>
